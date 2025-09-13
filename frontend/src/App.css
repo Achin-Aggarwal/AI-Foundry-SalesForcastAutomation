@@ -1,0 +1,145 @@
+body {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f0fdf4 100%);
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem 2rem 1rem;
+}
+
+h1 {
+  color: #2563eb;
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 8px #2563eb11;
+}
+
+form {
+  background: #fff;
+  box-shadow: 0 4px 24px #2563eb22;
+  border-radius: 14px;
+  padding: 2rem 1.5rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+textarea, select {
+  font-size: 1rem;
+  border: 1.5px solid #c7d2fe;
+  border-radius: 8px;
+  padding: 0.7em 1em;
+  margin-bottom: 1rem;
+  transition: border 0.2s;
+}
+
+textarea:focus, select:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #2563eb 60%, #22d3ee 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7em 2em;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #2563eb22;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #1d4ed8 60%, #06b6d4 100%);
+  box-shadow: 0 4px 16px #2563eb33;
+}
+
+pre {
+  background: #f3f4f6;
+  color: #222;
+  font-size: 0.97rem;
+  border-radius: 8px;
+  padding: 1em;
+  text-align: left;
+  margin: 0;
+  overflow-x: auto;
+}
+
+.bg-blue-50 {
+  background: #eff6ff !important;
+}
+
+.bg-green-50 {
+  background: #f0fdf4 !important;
+}
+
+.bg-white {
+  background: #fff !important;
+}
+
+.rounded, .rounded-lg, .rounded-xl {
+  border-radius: 14px !important;
+}
+
+.shadow, .shadow-lg {
+  box-shadow: 0 4px 24px #2563eb11 !important;
+}
+
+.border-l-4 {
+  border-left: 4px solid #2563eb !important;
+}
+
+.text-blue-700 {
+  color: #2563eb !important;
+}
+
+.text-green-700 {
+  color: #059669 !important;
+}
+
+.text-gray-700 {
+  color: #374151 !important;
+}
+
+.text-gray-800 {
+  color: #1f2937 !important;
+}
+
+.text-blue-800 {
+  color: #1e40af !important;
+}
+
+.text-red-700 {
+  color: #b91c1c !important;
+}
+
+.bg-red-50 {
+  background: #fef2f2 !important;
+}
+
+.border-blue-400 {
+  border-color: #60a5fa !important;
+}
+
+.border-red-200 {
+  border-color: #fecaca !important;
+}
+
+input, select, textarea {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e0e7ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #c7d2fe;
+  border-radius: 8px;
+}
